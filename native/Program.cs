@@ -105,19 +105,19 @@ internal sealed class ClockWindow:Form
     private static Image LoadImage(string name){using var stream=Resource(name);using var im=Image.FromStream(stream);return new Bitmap(im);}
     public ClockWindow()
     {
-        
+
         using(var reader=new StreamReader(Resource("calendar.json")))school=new SchoolClock(reader.ReadToEnd());
-        
+
         logo=LoadImage("logo.png");logoDark=LoadImage("logo-dark.png");
-        
+
         using(var stream=Resource("app.ico"))Icon=new Icon(stream);
         Text="Unterrichtszeit · BBS Einbeck";
         FormBorderStyle=FormBorderStyle.None;Padding=new Padding(4);
         bar.AutoSize=false;bar.Height=30;bar.CanOverflow=false;
         bar.Renderer=new PolishedRenderer();
-        
+
         try{prefs=JsonSerializer.Deserialize<Preferences>(File.ReadAllText(Settings))??new();}catch{}
-        
+
         if(prefs.Theme is not("auto" or "light" or "dark"))prefs.Theme="auto";
         var themes=new ToolStripDropDownButton("Ansicht");
         foreach(var (name,value) in new[]{("Automatisch","auto"),("Hell","light"),("Dunkel","dark")})
@@ -147,7 +147,7 @@ internal sealed class ClockWindow:Form
         };
         tick.Tick+=(_,_)=>{FitCompact();canvas.Invalidate();};sync.Tick+=async(_,_)=>await Sync();
         Activated+=(_,_)=>ApplyTheme();
-        
+
         SystemEvents.UserPreferenceChanged+=SystemPreferenceChanged;
         Shown+=(_,_)=>{
             tick.Start();
