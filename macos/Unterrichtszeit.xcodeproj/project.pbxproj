@@ -1,0 +1,174 @@
+// !$*UTF8*$!
+{
+	"archiveVersion" = "1";
+	"classes" = {
+	};
+	"objectVersion" = "56";
+	"objects" = {
+		"00000000000000000000000A" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Sources/App.swift";
+			"sourceTree" = "<group>";
+		};
+		"00000000000000000000001E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "00000000000000000000000A";
+		};
+		"00000000000000000000000B" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Sources/SchoolClock.swift";
+			"sourceTree" = "<group>";
+		};
+		"00000000000000000000001F" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "00000000000000000000000B";
+		};
+		"00000000000000000000000C" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.json";
+			"path" = "Resources/calendar.json";
+			"sourceTree" = "<group>";
+		};
+		"000000000000000000000020" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "00000000000000000000000C";
+		};
+		"00000000000000000000000D" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "image.png";
+			"path" = "Resources/bbs-logo.png";
+			"sourceTree" = "<group>";
+		};
+		"000000000000000000000021" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "00000000000000000000000D";
+		};
+		"00000000000000000000000E" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "image.png";
+			"path" = "Resources/bbs-logo-dark.png";
+			"sourceTree" = "<group>";
+		};
+		"000000000000000000000022" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "00000000000000000000000E";
+		};
+		"00000000000000000000000F" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "image.icns";
+			"path" = "build/AppIcon.icns";
+			"sourceTree" = "<group>";
+		};
+		"000000000000000000000023" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "00000000000000000000000F";
+		};
+		"000000000000000000000028" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.application";
+			"path" = "Unterrichtszeit.app";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+			"includeInIndex" = "0";
+		};
+		"000000000000000000000029" = {
+			"isa" = "PBXGroup";
+			"children" = ("000000000000000000000028");
+			"name" = "Products";
+			"sourceTree" = "<group>";
+		};
+		"00000000000000000000002A" = {
+			"isa" = "PBXGroup";
+			"children" = ("00000000000000000000000A", "00000000000000000000000B", "00000000000000000000000C", "00000000000000000000000D", "00000000000000000000000E", "00000000000000000000000F", "000000000000000000000029");
+			"sourceTree" = "<group>";
+		};
+		"00000000000000000000002B" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = ("00000000000000000000001E", "00000000000000000000001F");
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"00000000000000000000002C" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = ("000000000000000000000020", "000000000000000000000021", "000000000000000000000022", "000000000000000000000023");
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"00000000000000000000002D" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = ();
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"00000000000000000000002E" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "Unterrichtszeit";
+				"ALWAYS_SEARCH_USER_PATHS" = "NO";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "de.bbs-einbeck.unterrichtszeit";
+				"INFOPLIST_FILE" = "Info.plist";
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"SWIFT_VERSION" = "5.0";
+				"MACOSX_DEPLOYMENT_TARGET" = "13.0";
+				"SDKROOT" = "macosx";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"CODE_SIGNING_ALLOWED" = "NO";
+				"LD_RUNPATH_SEARCH_PATHS" = ("$(inherited)", "@executable_path/../Frameworks");
+				"COMBINE_HIDPI_IMAGES" = "YES";
+				"ENABLE_APP_SANDBOX" = "NO";
+				"ONLY_ACTIVE_ARCH" = "NO";
+				"ARCHS" = ("arm64", "x86_64");
+			};
+			"name" = "Release";
+		};
+		"00000000000000000000002F" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"MACOSX_DEPLOYMENT_TARGET" = "13.0";
+				"SDKROOT" = "macosx";
+			};
+			"name" = "Release";
+		};
+		"000000000000000000000030" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = ("00000000000000000000002E");
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"000000000000000000000031" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = ("00000000000000000000002F");
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"000000000000000000000032" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "000000000000000000000030";
+			"buildPhases" = ("00000000000000000000002B", "00000000000000000000002D", "00000000000000000000002C");
+			"buildRules" = ();
+			"dependencies" = ();
+			"name" = "Unterrichtszeit";
+			"productName" = "Unterrichtszeit";
+			"productReference" = "000000000000000000000028";
+			"productType" = "com.apple.product-type.application";
+		};
+		"000000000000000000000033" = {
+			"isa" = "PBXProject";
+			"attributes" = {
+				"LastUpgradeCheck" = "1600";
+			};
+			"buildConfigurationList" = "000000000000000000000031";
+			"compatibilityVersion" = "Xcode 14.0";
+			"developmentRegion" = "de";
+			"hasScannedForEncodings" = "0";
+			"knownRegions" = ("de", "en", "Base");
+			"mainGroup" = "00000000000000000000002A";
+			"productRefGroup" = "000000000000000000000029";
+			"projectDirPath" = "";
+			"projectRoot" = "";
+			"targets" = ("000000000000000000000032");
+		};
+	};
+	"rootObject" = "000000000000000000000033";
+}

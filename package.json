@@ -1,0 +1,14 @@
+{
+  "name": "bbs-unterrichtszeit-public",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "check": "node tests/web.cjs && python3 linux/test_school.py",
+    "pages:build": "python3 scripts/build-pages.py",
+    "test:browser": "node scripts/browser.cjs",
+    "screenshots": "node scripts/browser.cjs --screenshots"
+  },
+  "devDependencies": {
+    "playwright": "1.58.2"
+  }
+}

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup>
+<OutputType>WinExe</OutputType><TargetFramework>net10.0-windows</TargetFramework><UseWindowsForms>true</UseWindowsForms><ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode><EnableWindowsTargeting>true</EnableWindowsTargeting><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable>
+<AssemblyName>Unterrichtszeiten</AssemblyName><Version>2.10.0</Version><Company>BBS Einbeck</Company><Product>Unterrichtszeiten</Product><Copyright>© Marc Schulz</Copyright><ApplicationIcon>../public/icons/favicon.ico</ApplicationIcon>
+<RuntimeIdentifier>win-x64</RuntimeIdentifier><SelfContained>true</SelfContained><PublishSingleFile>true</PublishSingleFile><IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract><EnableCompressionInSingleFile>true</EnableCompressionInSingleFile><DebugType>none</DebugType><SatelliteResourceLanguages>de;en</SatelliteResourceLanguages>
+</PropertyGroup>
+<ItemGroup>
+<EmbeddedResource Include="calendar.json" LogicalName="calendar.json" />
+<EmbeddedResource Include="../public/icons/favicon.ico" LogicalName="app.ico" />
+<EmbeddedResource Include="../public/bbs-logo.png" LogicalName="logo.png" />
+<EmbeddedResource Include="../public/bbs-logo-dark.png" LogicalName="logo-dark.png" />
+</ItemGroup>
+</Project>

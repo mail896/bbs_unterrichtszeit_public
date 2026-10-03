@@ -1,0 +1,15 @@
+node_modules/
+dist/
+build/
+bin/
+obj/
+__pycache__/
+*.pyc
+.DS_Store
+delivery/
+*.deb
+*.exe
+*.zip
+.env*
+
+native/dist-mini/

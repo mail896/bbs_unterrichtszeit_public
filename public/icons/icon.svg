@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<title>Unterrichtszeiten BBS Einbeck</title>
+<rect width="512" height="512" fill="#f5d600"/>
+<rect x="60" y="60" width="392" height="392" rx="90" fill="#202322"/>
+<circle cx="256" cy="256" r="143" fill="none" stroke="#fff9e6" stroke-width="12"/>
+<path d="M256 130v17M382 256h-17M256 382v-17M130 256h17" stroke="#f5d600" stroke-width="12" stroke-linecap="round"/>
+<path d="M256 174v82l64 43" fill="none" stroke="#fff9e6" stroke-width="23" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="256" cy="256" r="17" fill="#f5d600"/>
+</svg>

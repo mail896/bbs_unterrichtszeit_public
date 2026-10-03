@@ -1,0 +1,187 @@
+[
+  {
+    "Name": "Weihnachtsferien",
+    "Start": "2025-12-22",
+    "End": "2026-01-05"
+  },
+  {
+    "Name": "Halbjahresferien",
+    "Start": "2026-02-02",
+    "End": "2026-02-03"
+  },
+  {
+    "Name": "Osterferien",
+    "Start": "2026-03-23",
+    "End": "2026-04-07"
+  },
+  {
+    "Name": "Brückentag",
+    "Start": "2026-05-15",
+    "End": "2026-05-15"
+  },
+  {
+    "Name": "Pfingstferien",
+    "Start": "2026-05-26",
+    "End": "2026-05-26"
+  },
+  {
+    "Name": "Sommerferien",
+    "Start": "2026-07-02",
+    "End": "2026-08-12"
+  },
+  {
+    "Name": "Herbstferien",
+    "Start": "2026-10-12",
+    "End": "2026-10-24"
+  },
+  {
+    "Name": "Weihnachtsferien",
+    "Start": "2026-12-23",
+    "End": "2027-01-09"
+  },
+  {
+    "Name": "Halbjahresferien",
+    "Start": "2027-02-01",
+    "End": "2027-02-02"
+  },
+  {
+    "Name": "Osterferien",
+    "Start": "2027-03-22",
+    "End": "2027-04-03"
+  },
+  {
+    "Name": "Brückentag",
+    "Start": "2027-05-07",
+    "End": "2027-05-07"
+  },
+  {
+    "Name": "Pfingstferien",
+    "Start": "2027-05-18",
+    "End": "2027-05-18"
+  },
+  {
+    "Name": "Sommerferien",
+    "Start": "2027-07-08",
+    "End": "2027-08-18"
+  },
+  {
+    "Name": "Herbstferien",
+    "Start": "2027-10-16",
+    "End": "2027-10-30"
+  },
+  {
+    "Name": "Weihnachtsferien",
+    "Start": "2027-12-23",
+    "End": "2028-01-08"
+  },
+  {
+    "Name": "Halbjahresferien",
+    "Start": "2028-01-31",
+    "End": "2028-02-01"
+  },
+  {
+    "Name": "Osterferien",
+    "Start": "2028-04-10",
+    "End": "2028-04-22"
+  },
+  {
+    "Name": "Brückentag",
+    "Start": "2028-05-26",
+    "End": "2028-05-26"
+  },
+  {
+    "Name": "Pfingstferien",
+    "Start": "2028-06-06",
+    "End": "2028-06-06"
+  },
+  {
+    "Name": "Sommerferien",
+    "Start": "2028-07-20",
+    "End": "2028-08-30"
+  },
+  {
+    "Name": "Brückentag",
+    "Start": "2028-10-02",
+    "End": "2028-10-02"
+  },
+  {
+    "Name": "Herbstferien",
+    "Start": "2028-10-23",
+    "End": "2028-11-04"
+  },
+  {
+    "Name": "Weihnachtsferien",
+    "Start": "2028-12-27",
+    "End": "2029-01-06"
+  },
+  {
+    "Name": "Halbjahresferien",
+    "Start": "2029-02-01",
+    "End": "2029-02-02"
+  },
+  {
+    "Name": "Osterferien",
+    "Start": "2029-03-19",
+    "End": "2029-04-03"
+  },
+  {
+    "Name": "Brückentag",
+    "Start": "2029-04-30",
+    "End": "2029-04-30"
+  },
+  {
+    "Name": "Brückentag",
+    "Start": "2029-05-11",
+    "End": "2029-05-11"
+  },
+  {
+    "Name": "Pfingstferien",
+    "Start": "2029-05-22",
+    "End": "2029-05-22"
+  },
+  {
+    "Name": "Sommerferien",
+    "Start": "2029-07-19",
+    "End": "2029-08-29"
+  },
+  {
+    "Name": "Brückentage",
+    "Start": "2029-10-04",
+    "End": "2029-10-05"
+  },
+  {
+    "Name": "Herbstferien",
+    "Start": "2029-10-22",
+    "End": "2029-11-02"
+  },
+  {
+    "Name": "Weihnachtsferien",
+    "Start": "2029-12-21",
+    "End": "2030-01-05"
+  },
+  {
+    "Name": "Halbjahresferien",
+    "Start": "2030-01-31",
+    "End": "2030-02-01"
+  },
+  {
+    "Name": "Osterferien",
+    "Start": "2030-04-08",
+    "End": "2030-04-23"
+  },
+  {
+    "Name": "Brückentag",
+    "Start": "2030-05-31",
+    "End": "2030-05-31"
+  },
+  {
+    "Name": "Pfingstferien",
+    "Start": "2030-06-11",
+    "End": "2030-06-11"
+  },
+  {
+    "Name": "Sommerferien",
+    "Start": "2030-07-11",
+    "End": "2030-08-21"
+  }
+]
