@@ -36,7 +36,7 @@ The demo runs the actual clock with the fixed BBS Einbeck timetable and Europe/B
 | Platform | Version | Installation |
 | --- | --- | --- |
 | Windows x64 | 2.10 | Extract ZIP and run `Unterrichtszeiten.exe`. MINI needs .NET 10 Desktop Runtime x64. |
-| macOS 13+ · Apple Silicon & Intel | 1.0.8 | Extract ZIP and move `Unterrichtszeit.app` into Applications. |
+| macOS 13+ · Apple Silicon & Intel | 1.0.10 | Extract ZIP and move `Unterrichtszeit.app` into Applications. |
 | Debian 12/13 · KDE & GNOME | 1.0.3 | `sudo apt install ./unterrichtszeit_1.0.3_all.deb`; launch from the application menu. Also tested on Raspberry Pi 5. |
 
 **[Download applications →](https://github.com/mail896/bbs_unterrichtszeit_public/releases/latest)**
@@ -64,4 +64,4 @@ Public snapshot: **3 October 2026**, with its own history. Platform versions are
 
 © 2026 Marc Schulz · BBS Einbeck. [MIT license](LICENSE) · [Assets](docs/ASSETS.md) · [Dependencies](docs/DEPENDENCIES.md) · [Security](SECURITY.md)
 
-The confirmed Mac download is 1.0.8. Source includes window-size fixes through 1.0.10; their long-running behavior has not yet been confirmed.
+The Mac download is 1.0.10 with the window-size fixes. Their long-running behavior has not yet been confirmed.

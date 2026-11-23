@@ -36,7 +36,7 @@ Die Demo ist die echte browserbasierte Uhr mit dem festen BBS-Stundenplan und de
 | Plattform | Stand | Installation |
 | --- | --- | --- |
 | Windows x64 | 2.10 | ZIP entpacken, `Unterrichtszeiten.exe` starten. MINI benötigt .NET 10 Desktop Runtime x64. |
-| macOS 13+ · Apple Silicon & Intel | 1.0.8 | ZIP entpacken, `Unterrichtszeit.app` nach Programme kopieren. |
+| macOS 13+ · Apple Silicon & Intel | 1.0.10 | ZIP entpacken, `Unterrichtszeit.app` nach Programme kopieren. |
 | Debian 12/13 · KDE & GNOME | 1.0.3 | `sudo apt install ./unterrichtszeit_1.0.3_all.deb` und im Appmenü starten. Auch auf Raspberry Pi 5 getestet. |
 
 **[Alle Downloads →](https://github.com/mail896/bbs_unterrichtszeit_public/releases/latest)**
@@ -74,4 +74,4 @@ python3 -m http.server --bind 127.0.0.1 --directory dist/pages 8080
 
 © 2026 Marc Schulz · BBS Einbeck. [MIT-Lizenz](LICENSE) · [Bilder/Schulzeichen](docs/ASSETS.md) · [Abhängigkeiten](docs/DEPENDENCIES.md) · [Sicherheitsmeldungen](SECURITY.md)
 
-Der bestätigte Mac-Download ist 1.0.8. Der Quellstand enthält bereits die Fenstergrößenkorrekturen bis 1.0.10; deren Langzeitverhalten ist noch nicht bestätigt.
+Der Mac-Download ist 1.0.10 mit den Fenstergrößenkorrekturen. Deren Langzeitverhalten ist noch nicht bestätigt.
