@@ -64,4 +64,4 @@ Public snapshot: **3 October 2026**, with its own history. Platform versions are
 
 © 2026 Marc Schulz · BBS Einbeck. [MIT license](LICENSE) · [Assets](docs/ASSETS.md) · [Dependencies](docs/DEPENDENCIES.md) · [Security](SECURITY.md)
 
-The Mac download is 1.0.10 with the window-size fixes. Their long-running behavior has not yet been confirmed.
+The Mac download is 1.0.10 with the window-size fixes and runs stably in continuous use.

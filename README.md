@@ -74,4 +74,4 @@ python3 -m http.server --bind 127.0.0.1 --directory dist/pages 8080
 
 © 2026 Marc Schulz · BBS Einbeck. [MIT-Lizenz](LICENSE) · [Bilder/Schulzeichen](docs/ASSETS.md) · [Abhängigkeiten](docs/DEPENDENCIES.md) · [Sicherheitsmeldungen](SECURITY.md)
 
-Der Mac-Download ist 1.0.10 mit den Fenstergrößenkorrekturen. Deren Langzeitverhalten ist noch nicht bestätigt.
+Der Mac-Download ist 1.0.10 mit den Fenstergrößenkorrekturen und läuft im Dauerbetrieb stabil.
